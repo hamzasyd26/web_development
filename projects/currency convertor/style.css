@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #4e58e0;
+}
+.container{
+    background-color: gainsboro;
+    padding: 3rem;
+    height: 40vh;
+    width: 35vh;
+    border-radius: 2rem;
+    box-shadow: 25px 25px 25px rgba(0,0,0,0.25),
+    10px 10px 10px rgba(0,0,0,0.5),
+    inset 5px 5px 10px rgba(0,0,0,0.5),
+    inset 5px 5px 10px rgba(225,225,225,0.5),
+    inset -5px -5px 15px rgba(0,0,0,0.75);
+
+}
+
+form{
+    margin: 2.5rem 0rem 1rem 0rem;
+}
+
+form select,input,button{
+    border: none;
+    width: 100%;
+    outline: none;
+}
+form input{
+    border-radius: 5px;
+    padding: 6px;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    /* gap: 30px; */
+    padding: 2rem 0rem 2rem 0rem;
+}   
+.select-container img{
+    max-width: 2rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+}
+.msg{
+    margin: 1rem 0rem 1rem 0rem;
+    font-size: larger;
+}
+form button{
+    height: 2.5rem;
+    background-color: #4e58e0;
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.25),
+    inset 2px 2px 5px rgba(0,0 ,0 ,0.5 ),
+    inset -3px -3px 5px rgba(0,0,0,0.5)
+}
